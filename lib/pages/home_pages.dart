@@ -294,7 +294,7 @@ class _HomePageState extends State<HomePage>
             indicatorSize: TabBarIndicatorSize.tab,
             isScrollable: true,
             labelColor: Colors.white,
-            unselectedLabelColor: Colors.grey,
+            unselectedLabelColor: const Color.fromARGB(255, 2, 2, 2),
             tabAlignment: TabAlignment.start,
             tabs: const [
               Tab(text: 'Tekno'),

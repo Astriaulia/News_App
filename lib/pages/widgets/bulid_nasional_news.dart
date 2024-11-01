@@ -64,7 +64,7 @@ class BuildNasionalNews extends StatelessWidget {
                               (berita.title?.split(" - ").last ?? ''),
                               style: const TextStyle(
                                 color: Color(0xFF969696),
-                                fontSize: 12,
+                                fontSize: 10,
                               ),
                               overflow: TextOverflow.ellipsis,
                               maxLines: 2,
